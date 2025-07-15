@@ -1,0 +1,11 @@
+# Primary TTS library
+pyttsx3==2.90
+
+# Fallback options for better compatibility
+gtts==2.3.2
+pygame==2.5.2
+
+# macOS compatibility (install if on macOS and having objc issues)
+# pyobjc-core==9.2
+# pyobjc-framework-Cocoa==9.2
+
