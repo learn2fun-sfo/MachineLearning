@@ -42,7 +42,7 @@ SCHOOL_CONFIGS = {
         'label': 'CCES',
         'keywords': [
             'country club elementary',
-            #'cces',
+            'cces',
             'countryclubelem',
             '@countryclub',
             'country club es'
