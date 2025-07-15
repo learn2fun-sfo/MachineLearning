@@ -1,14 +1,10 @@
-#!/usr/bin/env python3
 """
 Text-to-Speech Converter Script
 Converts input text to voice using pyttsx3 library
 """
-
 import pyttsx3
 import sys
 import argparse
-import objc 
-
 def text_to_speech(text, rate=200, volume=0.9, voice_id=None):
     """
     Convert text to speech
@@ -38,7 +34,6 @@ def text_to_speech(text, rate=200, volume=0.9, voice_id=None):
     print(f"🎤 Speaking: {text}")
     engine.say(text)
     engine.runAndWait()
-
 def main():
     parser = argparse.ArgumentParser(description='Convert text to speech')
     parser.add_argument('text', nargs='?', help='Text to convert to speech')
@@ -100,7 +95,5 @@ def main():
     except Exception as e:
         print(f"❌ Error: {e}")
         sys.exit(1)
-
 if __name__ == "__main__":
     main()
-
