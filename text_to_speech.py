@@ -7,7 +7,7 @@ Converts input text to voice using pyttsx3 library
 import pyttsx3
 import sys
 import argparse
-import objc
+import objc from Foundation import NSObject
 
 def text_to_speech(text, rate=200, volume=0.9, voice_id=None):
     """
