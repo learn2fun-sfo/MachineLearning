@@ -1,0 +1,10 @@
+# Phone calling dependencies
+twilio==8.10.0
+
+# Optional VoIP dependencies (uncomment if needed)
+# pjsua2==2.13
+# pyaudio==0.2.11
+
+# For advanced features
+requests==2.31.0
+
