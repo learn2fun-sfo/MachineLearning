@@ -35,6 +35,11 @@ SCHOOL_CONFIGS = {
             'pinevalley',
             '@pinevalley',
             'pine valley ms'
+            'San Ramon Valley Unified School District',
+            'SRVUSD',
+            'san ramon valley',
+            'san ramon valley unified',
+            'san ramon valley usd',
         ]
     },
     'CCES': {
