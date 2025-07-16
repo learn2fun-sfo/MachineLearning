@@ -1,8 +1,8 @@
 {
   "twilio": {
-    "account_sid": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "auth_token": "your_auth_token_here",
-    "from_number": "+1234567890"
+    "account_sid": "AC69b4fc58196f32499b69f135400a8c1c",
+    "auth_token": "0ec8fdfcdb861a4ba3168be76c323a93",
+    "from_number": "+18776583282"
   },
   "sip": {
     "server": "sip.your-provider.com",
